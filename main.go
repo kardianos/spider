@@ -60,7 +60,7 @@ func NewSpider(root string) *Spider {
 		FolderRoot: root,
 		hosts:      make(map[string]struct{}, 1),
 		viewed:     make(map[string]struct{}, 100),
-		queue:      make(chan string, 40000),
+		queue:      make(chan string, 100),
 	}
 }
 
