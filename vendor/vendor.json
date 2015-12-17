@@ -1,0 +1,36 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"path": "github.com/andybalholm/cascadia",
+			"revision": "3ad29d1ad1c4f2023e355603324348cf1f4b2d48",
+			"revisionTime": "2015-07-30T10:44:59-07:00"
+		},
+		{
+			"path": "github.com/tdewolff/buffer",
+			"revision": "43cef5ba7b6ce99cc410632dad46cf1c6c97026e",
+			"revisionTime": "2015-11-03T09:35:53+01:00"
+		},
+		{
+			"path": "github.com/tdewolff/parse",
+			"revision": "926cfdd88234c60f6433555d3c4a55138560f81e",
+			"revisionTime": "2015-12-10T16:23:44+01:00"
+		},
+		{
+			"path": "github.com/tdewolff/parse/css",
+			"revision": "926cfdd88234c60f6433555d3c4a55138560f81e",
+			"revisionTime": "2015-12-10T16:23:44+01:00"
+		},
+		{
+			"path": "golang.org/x/net/html",
+			"revision": "d2ecd08ab78730ba3be3958902a7e957d53dc8fc",
+			"revisionTime": "2015-12-16T18:11:02-08:00"
+		},
+		{
+			"path": "golang.org/x/net/html/atom",
+			"revision": "d2ecd08ab78730ba3be3958902a7e957d53dc8fc",
+			"revisionTime": "2015-12-16T18:11:02-08:00"
+		}
+	]
+}
