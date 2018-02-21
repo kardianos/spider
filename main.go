@@ -179,7 +179,12 @@ func (s *Spider) getUrl() {
 		log.Printf("%v: %s\n", err, urlString)
 		return
 	}
-	file := filepath.Join(s.FolderRoot, res.Request.URL.Path)
+	up := res.Request.URL.Path
+	if len(up) == 0 || up == "/" {
+		up = "index.html"
+	}
+
+	file := filepath.Join(s.FolderRoot, up)
 	err = os.MkdirAll(filepath.Dir(file), 0700)
 	if err != nil {
 		log.Printf("%v: %s\n", err, urlString)
